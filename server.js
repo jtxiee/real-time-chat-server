@@ -9,7 +9,7 @@ app.use(cors()); // Sử dụng cors middleware
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
-    origin: "https://ventureqh.online", // Địa chỉ của client
+    origin: "https://stunning-stardust-54cf3f.netlify.app", // Địa chỉ của client
     methods: ["GET", "POST"],
   },
 });
